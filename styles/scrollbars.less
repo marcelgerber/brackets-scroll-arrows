@@ -1,0 +1,68 @@
+.scrollbar-button(@char; @color) {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='12px' width='12px'><text x='0' y='12' fill='@{color}' font-size='12'>@{char}</text></svg>");
+}
+
+.scrollbar-buttons(@color) {
+    &:vertical:decrement {
+        .scrollbar-button("▲", @color);
+    }
+    &:vertical:increment {
+        .scrollbar-button("▼", @color);
+    }
+    &:horizontal:decrement {
+        .scrollbar-button("◄", @color);
+    }
+    &:horizontal:increment {
+        .scrollbar-button("►", @color);
+    }
+}
+
+::-webkit-scrollbar-button {
+    .platform-win & {
+        background-repeat: no-repeat;
+        height: 15px;
+        width: 15px;
+        .scrollbar-buttons(#535353);
+
+        &:vertical:decrement {
+            background-position: 0 -2px;
+        }
+        &:vertical:increment {
+            background-position: 0 1px;
+        }
+        &:horizontal:decrement {
+            background-position: 0 -2px;
+        }
+        &:horizontal:increment {
+            background-position: 3px -2px;
+        }
+
+
+        &:hover,
+        &:focus {
+            background-color: #c0c0c0;
+        }
+        &:active {
+            background-color: #7a7a7a;
+            .scrollbar-buttons(#cbcbcb);
+        }
+    }
+    
+    // Dark scrollbars
+    .platform-win.dark & {
+        .scrollbar-buttons(#ababab);
+
+        &:hover,
+        &:focus {
+            background-color: #595959;
+        }
+        &:active {
+            background-color: #a9a9a9;
+            .scrollbar-buttons(#000);
+        }
+    }
+}
+
+.quiet-scrollbars ::-webkit-scrollbar-button {
+    display: none;
+}

@@ -1,0 +1,34 @@
+{
+    "name": "scroll-arrows",
+    
+    "title": "Scroll Arrows",
+    "description": "Adds scroll arrows to Brackets' scrollbars. Windows only for now.",
+    "keywords": ["scroll", "scrollbar"],
+    "version": "0.1.0",
+
+    "license": "MIT",
+    "homepage": "https://github.com/MarcelGerber/brackets-scroll-arrows",
+    "author": {
+        "name": "Marcel Gerber",
+        "email": "mg.hain@gmx.de",
+        "url": "https://github.com/MarcelGerber"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MarcelGerber/brackets-scroll-arrows.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MarcelGerber/brackets-scroll-arrows/issues",
+        "email": "mg.hain@gmx.de"
+    },
+
+    "engines": {
+        "brackets": ">=0.37.0"
+    },
+
+    "package-i18n": {
+        "de": {
+            "description": "Bereichert Brackets' Scrollbalken mit Navigationspfeilen. Funktioniert derzeit nur unter Windows."
+        }
+    }
+}
