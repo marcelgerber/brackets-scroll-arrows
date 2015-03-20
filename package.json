@@ -26,6 +26,12 @@
         "brackets": ">=0.37.0"
     },
 
+    "devDependencies": {
+        "grunt": "0.4.5",
+        "grunt-lesslint": "~1.1.0",
+        "grunt-zip": "~0.16.0"
+    },
+
     "package-i18n": {
         "de": {
             "description": "Bereichert Brackets' Scrollbalken mit Navigationspfeilen. Funktioniert derzeit nur unter Windows."
