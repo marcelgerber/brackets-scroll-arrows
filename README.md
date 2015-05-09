@@ -2,8 +2,8 @@
 Adds scroll arrows to [Brackets](http://brackets.io)' scrollbars. Windows only for now.
 
 ## Screenshots
-With Dark theme ([Lion](https://github.com/Brackets-Themes/Lion)):
-![Screenshot with dark theme](img/screenshot-dark.png)
+With Dark theme on Windows ([Lion](https://github.com/Brackets-Themes/Lion)):
+![Screenshot with dark theme](img/screenshot-win-dark.png)
 
-With Light theme (Brackets Light, preinstalled):
-![Screenshot with light theme](img/screenshot-light.png)
+With Light theme on Windows (Brackets Light, preinstalled):
+![Screenshot with light theme](img/screenshot-win-light.png)
