@@ -2,9 +2,9 @@
     "name": "scroll-arrows",
     
     "title": "Scroll Arrows",
-    "description": "Adds scroll arrows to Brackets' scrollbars. Windows only for now.",
+    "description": "Adds scroll arrows to Brackets' scrollbars. Windows only.",
     "keywords": ["scroll", "scrollbar"],
-    "version": "0.1.0",
+    "version": "0.1.1",
 
     "license": "MIT",
     "homepage": "https://github.com/MarcelGerber/brackets-scroll-arrows",
@@ -34,7 +34,7 @@
 
     "package-i18n": {
         "de": {
-            "description": "Bereichert Brackets' Scrollbalken mit Navigationspfeilen. Funktioniert derzeit nur unter Windows."
+            "description": "Bereichert Brackets' Scrollbalken mit Navigationspfeilen. Funktioniert nur unter Windows."
         }
     }
 }
